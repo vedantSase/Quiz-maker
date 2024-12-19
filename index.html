@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Generator Landing Page</title>
+    <link rel="stylesheet" href="Land_style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+        }
+
+        video.background-clip {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0,0.4); /* Semi-transparent black */
+            z-index: 0;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 90%;
+            max-width: 500px;
+            margin: auto;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+        }
+
+        .container h1 {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .user {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop muted playsinline class="background-clip">
+        <source src="video/background_play.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="overlay"></div>
+    <div class="container">
+        <h1>Quiz Generator</h1>
+        <a class="user" href="Act_quiz.html">
+            <button class="btn" id="userMode">User Mode</button>
+        </a>
+        <button class="btn" id="adminMode">Admin Mode</button>
+    </div>
+
+    <script>
+        document.getElementById('userMode').addEventListener('click', () => {
+            // User Mode actions can be implemented here
+        });
+
+        document.getElementById('adminMode').addEventListener('click', () => {
+            const username = prompt('Enter username:');
+            const password = prompt('Enter password:');
+
+            if (username === 'user123' && password === 'admin456') {
+                alert('Login successful! Redirecting to admin panel...');
+                window.location.href = 'dev_quiz.html';
+            } else {
+                alert('Invalid credentials. Access denied.');
+            }
+        });
+    </script>
+</body>
+</html>

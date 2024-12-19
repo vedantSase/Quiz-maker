@@ -1,0 +1,52 @@
+[
+  {
+      "question": "What is the capital of India?",
+      "options": ["Mumbai", "New Delhi", "Bangalore", "Kolkata"],
+      "correct": "New Delhi"
+  },
+  {
+      "question": "Who is known as the Father of the Indian Nation?",
+      "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Bhagat Singh", "Subhash Chandra Bose"],
+      "correct": "Mahatma Gandhi"
+  },
+  {
+      "question": "Which river is the longest in India?",
+      "options": ["Ganga", "Yamuna", "Brahmaputra", "Godavari"],
+      "correct": "Ganga"
+  },
+  {
+      "question": "Which is the national animal of India?",
+      "options": ["Elephant", "Peacock", "Tiger", "Lion"],
+      "correct": "Tiger"
+  },
+  {
+      "question": "Which is the national sport of India?",
+      "options": ["Cricket", "Hockey", "Kabaddi", "Badminton"],
+      "correct": "Hockey"
+  },
+  {
+      "question": "Which festival is known as the Festival of Lights in India?",
+      "options": ["Diwali", "Holi", "Eid", "Christmas"],
+      "correct": "Diwali"
+  },
+  {
+      "question": "Who was the first Prime Minister of India?",
+      "options": ["Mahatma Gandhi", "Sardar Vallabhbhai Patel", "Jawaharlal Nehru", "Lal Bahadur Shastri"],
+      "correct": "Jawaharlal Nehru"
+  },
+  {
+      "question": "Which is the highest mountain peak in India?",
+      "options": ["Mount Everest", "K2", "Kangchenjunga", "Nanda Devi"],
+      "correct": "Kangchenjunga"
+  },
+  {
+      "question": "Which city is known as the Pink City of India?",
+      "options": ["Jaipur", "Udaipur", "Jodhpur", "Ajmer"],
+      "correct": "Jaipur"
+  },
+  {
+      "question": "Which is the national bird of India?",
+      "options": ["Parrot", "Peacock", "Sparrow", "Kingfisher"],
+      "correct": "Peacock"
+  }
+]
